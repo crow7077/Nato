@@ -79,10 +79,11 @@ body {
     padding-bottom: 20px;  
 }
 
-img {
-    width: 290px;
-    height: 290px;
-    border-radius: 15px;
+.imagem {
+    width: 330px;
+    height: 330px;
+    border-radius: 25px;
+    padding: 15px;
 }
 
 .video {  
@@ -143,13 +144,13 @@ footer {
   }
   
   .social-links a {
-    color:   
-   #333333;
+    color: #a2ffa7;
     text-decoration: none;
   }
 
 .h1rodape {
     color: white;
+}
 
 h1 {
     text-align: center;
