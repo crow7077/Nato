@@ -35,8 +35,7 @@ main {
     padding: 10px 0;
 }
 
-.container {
-    background-color: white;    
+.container {   
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -68,6 +67,30 @@ section {
     border-radius: 15px; 
     box-shadow: 0px 0px 15px 2px rgb(0, 0, 0);  
     padding-bottom: 20px;  
+}
+
+.video1 {
+    width: 290px;
+    border-radius: 15px;    
+}
+
+.youtube {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;   
+    border-radius: 15px; 
+    box-shadow: 0px 0px 15px 2px rgb(0, 0, 0);  
+    padding-bottom: 20px;
+}
+
+.youtube1 {    
+    width: 290px;
+    border-radius: 15px;    
+}
+
+.link {
+    padding-bottom: 20px;
 }
 
 h1 {
