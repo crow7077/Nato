@@ -15,16 +15,15 @@ body {
 }
 
 .navbar {
+    display: grid;
+    place-items: center;
     position: fixed;
     top: 10px;
-    background-color: #006eff;    
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    transition: all 0.3s;
+    bottom: 10px;
+    background-color: #006eff;  
     width: 90%;   
+    height: 50px;
     border-radius: 50px; 
-    padding-bottom: 0%;
     z-index: 1; ( a tag "z-index" Significa que a barra do cabeçalho é para ficar acima de qualquer elemento do site) 
        
 }
@@ -43,8 +42,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 0;
-    bottom: 10px;
+    padding: 70px 0;
+    bottom: 0px;
 }
 
 .main2 {
@@ -145,7 +144,7 @@ footer {
   
   .social-links a {
     color:   
-   #480c8d;
+   #333333;
     text-decoration: none;
   }
 
